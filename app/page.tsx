@@ -7,28 +7,28 @@ import { Github, GitBranch, ThumbsUp, ThumbsDown, Rocket, Heart } from 'lucide-r
 
 const slides = [
   {
-    title: "GitHub Universe",
-    subtitle: "Where Code Meets Community",
-    description: "GitHub is a web-based platform that provides version control and collaboration features for software development projects. It's a central hub for developers to store, manage, track and control changes to their code.",
+    title: "GitHub",
+    subtitle: "Version Control System",
+    description: "GitHub is a web-based platform that uses Git, a version control system, to facilitate collaboration on software projects. It allows developers to store their code in repositories, manage changes, and collaborate with others in real time. It is widely used in the software development community, both for personal projects and for large companies.",
     icon: Github,
     color: "from-purple-600 to-blue-600"
   },
   {
-    title: "Key Features",
-    subtitle: "Empowering Developers Worldwide",
-    description: "• Version Control with Git\n• Repositories for Code Storage\n• Pull Requests for Code Review\n• Issue Tracking\n• Project Management Tools\n• Continuous Integration/Continuous Deployment (CI/CD)\n• Collaboration Tools (Discussions, Wikis)\n• GitHub Actions for Automation",
+    title: "Main Features",
+    subtitle: "The Best Tool For Developers",
+    description: "• Version Control with Git\n• Repositories\n• Pull Requests\n• Project Management Tools\n• Community as a social network",
     icon: GitBranch,
     color: "from-emerald-600 to-teal-600"
   },
   {
     title: "Advantages",
     subtitle: "Why Developers Love GitHub",
-    description: "• Large, Active Community\n• Open Source Project Hosting\n• Easy Collaboration\n• Integrated CI/CD Pipeline\n• Extensive Documentation\n• GitHub Pages for Web Hosting\n• Security Features (Dependabot)\n• Integration with Many Developer Tools",
+    description: "• Version control : Track changes to code, making it easy to roll back to previous versions.\n• Collaboration: Teams can work simultaneously on the same project, improving efficiency and productivity.\n• Community access: Developers can share their work and receive feedback, encouraging continuous learning and improvement.\n• Tool integration: GitHub integrates with a variety of development tools, making it easy to automate tasks and manage projects.",
     icon: ThumbsUp,
     color: "from-orange-600 to-red-600"
   },
   {
-    title: "Challenges",
+    title: "Handicaps",
     subtitle: "Areas for Consideration",
     description: "• Learning Curve for Git Beginners\n• Limited Free Private Repositories\n• Dependency on Microsoft (Owner)\n• Can Be Overwhelming for Small Projects\n• Occasional Downtime\n• Privacy Concerns for Public Repositories",
     icon: ThumbsDown,
@@ -98,7 +98,7 @@ export default function Page() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.8 }}
-                  className="text-lg mb-12 max-w-2xl text-gray-400 whitespace-pre-line"
+                  className="text-xl mb-12 max-w-6xl text-gray-400 whitespace-pre-line"
                 >
                   {slide.description}
                 </motion.p>
